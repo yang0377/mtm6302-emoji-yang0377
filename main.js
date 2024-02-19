@@ -6,8 +6,8 @@ const emojisArray = []
 
 // 
 for(let i = 128513; i < 128525; i++){
-    emojisArray.push(`<div><span id="emojis">&#${i}</span>
-    <code>${i}</code></div>`)
+    emojisArray.push(`<div class="items"><span class="emojiitem">&#${i}</span>
+    <code class="codes">${i}</code></div>`)
 }
 
 // 
